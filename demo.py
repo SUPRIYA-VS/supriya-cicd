@@ -32,7 +32,7 @@ time.sleep(2)
 message = chrome_driver.find_element(By.CLASS_NAME,"alert-success").text
 print(message)
 assert "Success" in message, f"Expected success message to contain 'Success', but got: {message}"
-time.sleep(5)
+time.sleep(6)
 
 #saving screenshot
 chrome_driver.save_screenshot("pagehome1.png")
